@@ -25,9 +25,11 @@ Los dos enlaces muestran la versión visual multipágina del portfolio. `Portafo
 
 ## DAW OS — Classroom Sync
 
-El proyecto propone centralizar tareas de Google Classroom en Notion mediante Google Apps Script. La demo del portfolio funciona localmente con datos ficticios y permite filtrar tareas, simular una sincronización, consultar el registro de actividad y reiniciar los datos.
+DAW OS sincroniza tareas de Google Classroom con Notion mediante Google Apps Script. Nació cuando el calendario académico dejó de estar disponible: revisar cada curso manualmente era lento, desordenado y facilitaba olvidar entregas. La vista única de Notion también puede consultarse desde el móvil y se actualiza cada 15 minutos.
 
-La demo **no se conecta a Google Classroom ni a Notion**. En el proyecto real, la sincronización completa sigue pendiente de validación. No se incluye un enlace de repositorio del proyecto DAW OS porque todavía no hay uno confirmado.
+Una ejecución real revisó **8 cursos y 80 tareas**: 80 ya estaban sincronizadas, sin omisiones ni errores. Como no encontró cambios, ese ciclo comprobó consulta, comparación y detección de registros existentes, pero no ejercitó creación ni actualización. El código está en [Waelbgg/daw-os-classroom-sync](https://github.com/Waelbgg/daw-os-classroom-sync).
+
+La demo del portfolio sigue siendo una simulación independiente con datos ficticios; no se conecta a las cuentas reales. La integración operativa conecta Classroom con Notion. La arquitectura puede ampliarse a otros servicios en el futuro.
 
 ## Estructura
 
@@ -81,9 +83,9 @@ Antes de publicar cambios, revisa:
 
 - Que cada página cargue sus CSS, JavaScript, imágenes y PDF.
 - La navegación interna en escritorio y móvil.
-- Los filtros, la simulación, el registro y el reinicio de la demo DAW OS.
+- Los filtros, la simulación, el registro y el reinicio de la demo ficticia de DAW OS.
 - Los enlaces de correo y teléfono y la descarga del CV.
-- Que la demo siga identificándose como simulación con datos ficticios.
+- Que la demo siga identificándose como simulación con datos ficticios, separada de la sincronización real.
 
 ## Contacto
 
