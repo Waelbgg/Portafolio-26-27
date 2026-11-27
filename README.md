@@ -1,11 +1,9 @@
 # Portafolio 2026–2027 · Wael Boutafah Jebari
 
-Repositorio base del portfolio profesional y académico de **Wael Boutafah Jebari**, estudiante de Desarrollo de Aplicaciones Web (DAW), con formación previa en Sistemas Microinformáticos y Redes (SMX).
-
-> **Este repositorio contiene el código fuente y los recursos del portfolio. No tiene GitHub Pages configurado ni publica una web propia.** Para ver el resultado desplegado, utiliza los enlaces de Firebase o GitHub Pages indicados abajo.
+Repositorio base del portfolio profesional y académico, estudiante de Desarrollo de Aplicaciones Web (DAW), con formación previa en Sistemas Microinformáticos y Redes (SMX).
 
 ## Portfolio desplegado
-
+- **Dominio propio**:[ www.waeljebari.dev](https://www.waeljebari.dev/)
 - **Firebase Hosting:** [portafolio-wael-jebari.web.app](https://portafolio-wael-jebari.web.app/)
 - **GitHub Pages:** [waelbgg.github.io](https://waelbgg.github.io/)
 - **Repositorio dedicado a GitHub Pages:** [Waelbgg/waelbgg.github.io](https://github.com/Waelbgg/waelbgg.github.io)
@@ -56,36 +54,6 @@ La demo del portfolio sigue siendo una simulación independiente con datos ficti
 └── .nojekyll                  # Marcador para publicación estática
 ```
 
-## Desarrollo local
-
-No requiere framework, instalación de paquetes ni proceso de compilación. Clona el repositorio y sirve la carpeta raíz con un servidor estático:
-
-```bash
-git clone https://github.com/Waelbgg/Portafolio-26-27.git
-cd Portafolio-26-27
-git switch main
-python -m http.server 8000
-```
-
-Abre <http://localhost:8000>. También puede abrirse `index.html` directamente, aunque un servidor local representa mejor las rutas de las páginas internas.
-
-## Tecnologías
-
-HTML5 · CSS3 · JavaScript ES6+ · Git · GitHub · Firebase Hosting · GitHub Pages
-
-El sitio utiliza HTML semántico, diseño responsive, recursos locales, navegación multipágina y JavaScript nativo. Incluye foco visible, enlace para saltar al contenido y respeto por la preferencia de movimiento reducido.
-
-## Actualización y publicación
-
-Este repositorio es la base del código. Los sitios de Firebase y GitHub Pages son despliegues visuales separados. Al cambiar el portfolio, comprueba las rutas internas y los recursos, actualiza los despliegues correspondientes y verifica sus URLs públicas. GitHub Pages **no está activado en este repositorio**.
-
-Antes de publicar cambios, revisa:
-
-- Que cada página cargue sus CSS, JavaScript, imágenes y PDF.
-- La navegación interna en escritorio y móvil.
-- Los filtros, la simulación, el registro y el reinicio de la demo ficticia de DAW OS.
-- Los enlaces de correo y teléfono y la descarga del CV.
-- Que la demo siga identificándose como simulación con datos ficticios, separada de la sincronización real.
 
 ## Contacto
 
